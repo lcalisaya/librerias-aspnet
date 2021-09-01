@@ -9,6 +9,7 @@ namespace AutoMapperLibrary.Models
         public string RealName { get; set; }
         public string FamousName{ get; set; }
         public string Nationality { get; set; }
+        public Mother Mother { get; set; }
 
     }
 }

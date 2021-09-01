@@ -9,5 +9,8 @@ namespace AutoMapperLibrary.Models
         public string RealName { get; set; }
         public string ArtisticName { get; set; }
         public string Nationality { get; set; }
+        public DateTime MotherBirthDay { get; set; }
+        public string MotherFirstName { get; set; }
+        public string MotherLastName { get; set; }
     }
 }

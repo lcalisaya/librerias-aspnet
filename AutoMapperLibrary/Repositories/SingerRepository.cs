@@ -15,7 +15,12 @@ namespace AutoMapperLibrary.Repositories
                 Nationality = "Estadounidense",
                 BirthDay = new DateTime(1935, 1, 8),
                 RealName = "Elvis Aaron Presley",
-                FamousName = "Elvis Presley"
+                FamousName = "Elvis Presley", 
+                Mother = new Mother() { 
+                    BirthDay = new DateTime(1912, 4, 25),
+                    FirstName = "Gladys",
+                    LastName = "Presley"
+                }
             };
         }
     }
