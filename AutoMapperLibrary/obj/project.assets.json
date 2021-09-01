@@ -6535,11 +6535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timea\\source\\repos\\AutoMapperLibrary\\AutoMapperLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\AutoMapperLibrary\\AutoMapperLibrary.csproj",
       "projectName": "AutoMapperLibrary",
-      "projectPath": "C:\\Users\\timea\\source\\repos\\AutoMapperLibrary\\AutoMapperLibrary.csproj",
+      "projectPath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\AutoMapperLibrary\\AutoMapperLibrary.csproj",
       "packagesPath": "C:\\Users\\timea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timea\\source\\repos\\AutoMapperLibrary\\obj\\",
+      "outputPath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\AutoMapperLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\timea\\AppData\\Roaming\\NuGet\\NuGet.Config",

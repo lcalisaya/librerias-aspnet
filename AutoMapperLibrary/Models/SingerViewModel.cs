@@ -7,7 +7,7 @@ namespace AutoMapperLibrary.Models
         public int Id { get; set; }
         public DateTime BirthDay { get; set; }
         public string RealName { get; set; }
-        public string FamousName { get; set; }
+        public string ArtisticName { get; set; }
         public string Nationality { get; set; }
     }
 }

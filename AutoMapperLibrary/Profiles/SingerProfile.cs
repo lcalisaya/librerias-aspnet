@@ -7,7 +7,8 @@ namespace AutoMapperLibrary.Profiles
     {
         public SingerProfile()
         {
-            CreateMap<Singer, SingerViewModel>();
+            CreateMap<Singer, SingerViewModel>()
+                .ForMember(dest => dest.ArtisticName, opt => opt.MapFrom(src => src.FamousName));
         }
     }
 }

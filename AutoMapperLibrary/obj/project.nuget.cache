@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xgy8J/Ahg0FRIU+bw3UocqYW5U+yuKVfifJ3n63xYHT21Bx+eESGR3bx2cRx5cD4YUeBXhW17OjM59bSWzgYzg==",
+  "dgSpecHash": "bM6eX7p2nbOENRRuoNZ591rhBVJIfGZ9JwHjX1v4qEImcmNTfrzRxDRV9GmGF5oLzn+KlLdVKp7sX3wMRACnxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\timea\\source\\repos\\AutoMapperLibrary\\AutoMapperLibrary.csproj",
+  "projectFilePath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\AutoMapperLibrary\\AutoMapperLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\timea\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\timea\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
