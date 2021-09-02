@@ -17,6 +17,16 @@ namespace AutoMapperLibrary.Services
             _repository = repository;
             _mapper = mapper;
         }
+
+        public SingerViewModel GetModifiedSinger(SingerViewModel singer)
+        {
+
+            Singer singerDDBB = _mapper.Map<Singer>(singer);
+            var modifiedSinger = _repository.GetModifiedSinger(singerDDBB);
+            SingerViewModel singerToTheView = _mapper.Map<SingerViewModel>(modifiedSinger);
+            return singerToTheView;
+        }
+
         public SingerViewModel GetSinger()
         {
             var singer = _repository.GetSinger();
@@ -29,5 +39,7 @@ namespace AutoMapperLibrary.Services
             //    FamousName = singer.FamousName
             //};
         }
+
+        
     }
 }

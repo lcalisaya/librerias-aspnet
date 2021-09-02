@@ -9,6 +9,9 @@ namespace AutoMapperLibrary.Profiles
         {
             CreateMap<Singer, SingerViewModel>()
                 .ForMember(dest => dest.ArtisticName, opt => opt.MapFrom(src => src.FamousName));
+
+            CreateMap<SingerViewModel, Singer>()
+                .ForMember(dest => dest.FamousName, opt => opt.MapFrom(src => src.ArtisticName));
         }
     }
 }

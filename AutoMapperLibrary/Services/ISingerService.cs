@@ -9,5 +9,6 @@ namespace AutoMapperLibrary.Services
     public interface ISingerService
     {
         SingerViewModel GetSinger();
+        SingerViewModel GetModifiedSinger(SingerViewModel singer);
     }
 }

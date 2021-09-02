@@ -24,5 +24,19 @@ namespace AutoMapperLibrary.Controllers
             SingerViewModel singer = _service.GetSinger();
             return View(singer);
         }
+
+        [HttpGet]
+        public IActionResult Add()
+        {
+            SingerViewModel singer = new SingerViewModel();
+            return View(singer);       
+        }
+
+        [HttpPost]
+        public IActionResult Add(SingerViewModel singer)
+        {
+            SingerViewModel modifiedSinger = _service.GetModifiedSinger(singer);
+            return View("Details", modifiedSinger);
+        }
     }
 }

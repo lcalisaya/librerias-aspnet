@@ -8,6 +8,16 @@ namespace AutoMapperLibrary.Repositories
 {
     public class SingerRepository : ISingerRepository
     {
+        public Singer GetModifiedSinger(Singer singer)
+        {
+            var modifiedSinger = new Singer();
+            modifiedSinger.FamousName = singer.FamousName + " modified";
+            modifiedSinger.RealName = singer.RealName + " modified";
+            modifiedSinger.Nationality = singer.Nationality + " modified";
+
+            return modifiedSinger;
+        }
+
         public Singer GetSinger()
         {
             return new Singer(){
