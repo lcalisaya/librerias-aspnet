@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "akRlD1o8NGrWJNWjBGx4uETKh011WZU30jIIMcyvJLliY3sJp4Yqq7sCFD/rMZZDCbRcTzQHbtYpOYMR96XJKw==",
+  "dgSpecHash": "+D/hoBmPvBK7XDqsgeGHUSnmy9yLmL2NzbOby0cMkyEVBIReEck7zZCtEAEX7pSUUCpPduasx2SjJLcA1uDW6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\timea\\source\\repos\\FluentValidationLibrary\\FluentValidationLibrary.csproj",
+  "projectFilePath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\FluentValidationLibrary\\FluentValidationLibrary.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\timea\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\timea\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
+    "C:\\Users\\timea\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
     "C:\\Users\\timea\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\timea\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\timea\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.8\\microsoft.aspnetcore.mvc.razor.extensions.5.0.8.nupkg.sha512",

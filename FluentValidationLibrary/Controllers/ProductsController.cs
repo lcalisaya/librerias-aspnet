@@ -1,4 +1,5 @@
-﻿using FluentValidationLibrary.Data;
+﻿using FluentValidation;
+using FluentValidationLibrary.Data;
 using FluentValidationLibrary.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -53,7 +54,10 @@ namespace FluentValidationLibrary.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Brand,Description,Price,IsExpiring,Cost")] Product product)
         {
-            if (ModelState.IsValid)
+            var validator = new ProductValidator();
+            var result = validator.Validate(product, options => options.IncludeRuleSets("ConjuntoValidaciones"));
+
+            if (result.IsValid)
             {
                 _context.Add(product);
                 await _context.SaveChangesAsync();
