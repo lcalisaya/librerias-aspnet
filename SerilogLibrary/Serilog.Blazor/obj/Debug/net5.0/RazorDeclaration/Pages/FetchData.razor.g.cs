@@ -83,6 +83,13 @@ using Serilog.Blazor.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\Users\timea\source\repos\librerias-aspnet\SerilogLibrary\Serilog.Blazor\_Imports.razor"
+using Serilog;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\timea\source\repos\librerias-aspnet\SerilogLibrary\Serilog.Blazor\Pages\FetchData.razor"
 using Serilog.Blazor.Data;
 

@@ -82,6 +82,13 @@ using Serilog.Blazor.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\timea\source\repos\librerias-aspnet\SerilogLibrary\Serilog.Blazor\_Imports.razor"
+using Serilog;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -97,7 +104,28 @@ using Serilog.Blazor.Shared;
 
     private void IncrementCount()
     {
-        currentCount++;
+        try
+        {
+            Log.Debug("Debugging my app with Serilog...");
+            Log.Information("Hello {Name}!", Environment.GetEnvironmentVariable("USERNAME"));
+            Log.Warning("It was expected to match another result here");
+
+            currentCount++;
+
+            ThrowAnError();
+        }
+        catch (Exception e)
+        {
+            Log.Error(e.Message);
+            Log.Error(e, "An error occurred!");
+        }
+
+        Log.CloseAndFlush();
+    }
+
+    void ThrowAnError()
+    {
+        throw new NullReferenceException();
     }
 
 #line default
