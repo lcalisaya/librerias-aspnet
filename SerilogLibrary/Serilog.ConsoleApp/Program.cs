@@ -8,7 +8,7 @@ namespace Serilog.ConsoleApp
         public static void Main(string[] args)
         {
             Log.Logger = new LoggerConfiguration()
-                             .MinimumLevel.Verbose()
+                             .MinimumLevel.Verbose()//Mostrará todos los niveles de logueo
                              .WriteTo.Console(theme: AnsiConsoleTheme.Code)
                              .CreateLogger();
 
