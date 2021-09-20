@@ -1,0 +1,15 @@
+2021-09-20 16:01:13.443 -03:00 [INF] Hello lcalisaya!
+2021-09-20 16:01:14.295 -03:00 [WRN] It was expected to match another result here
+2021-09-20 16:01:27.025 -03:00 [ERR] Object reference not set to an instance of an object.
+2021-09-20 16:01:27.025 -03:00 [ERR] An error occurred!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Serilog.File.Program.ThrowAnError() in C:\Users\lcalisaya\source\repos\librerias-aspnet\SerilogLibrary\Serilog.File\Program.cs:line 32
+   at Serilog.File.Program.Main(String[] args) in C:\Users\lcalisaya\source\repos\librerias-aspnet\SerilogLibrary\Serilog.File\Program.cs:line 19
+2021-09-20 16:05:48.771 -03:00 [DBG] Debugging my app with Serilog...
+2021-09-20 16:05:48.787 -03:00 [INF] Hello lcalisaya!
+2021-09-20 16:05:48.787 -03:00 [WRN] It was expected to match another result here
+2021-09-20 16:05:52.596 -03:00 [ERR] Object reference not set to an instance of an object.
+2021-09-20 16:05:52.596 -03:00 [ERR] An error occurred!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Serilog.File.Program.ThrowAnError() in C:\Users\lcalisaya\source\repos\librerias-aspnet\SerilogLibrary\Serilog.File\Program.cs:line 33
+   at Serilog.File.Program.Main(String[] args) in C:\Users\lcalisaya\source\repos\librerias-aspnet\SerilogLibrary\Serilog.File\Program.cs:line 20
