@@ -83,11 +83,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\Serilog.Intro\\Serilog.ConsoleApp\\Serilog.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\SerilogLibrary\\Serilog.ConsoleApp\\Serilog.ConsoleApp.csproj",
       "projectName": "Serilog.ConsoleApp",
-      "projectPath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\Serilog.Intro\\Serilog.ConsoleApp\\Serilog.ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\SerilogLibrary\\Serilog.ConsoleApp\\Serilog.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\timea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\Serilog.Intro\\Serilog.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\SerilogLibrary\\Serilog.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\timea\\AppData\\Roaming\\NuGet\\NuGet.Config",
