@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fH5uQZeGbU5NNHgrKztuw3kzEHz4xa3bIgj996bpvdWHeYIuhrPJaHAAEF+etu6lDz2ULLJC7+GGvvhJgrtsdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\Serilog.Intro\\Serilog.ConsoleApp\\Serilog.ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timea\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\timea\\.nuget\\packages\\serilog.sinks.console\\4.0.0\\serilog.sinks.console.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
