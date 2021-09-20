@@ -1,11 +1,5 @@
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Serilog.Blazor
 {
@@ -15,7 +9,8 @@ namespace Serilog.Blazor
         {
             //Configuración del objeto Log de Serilog
             Log.Logger = new LoggerConfiguration()
-                            .MinimumLevel.Verbose()
+                            //.MinimumLevel.Verbose()
+                            .MinimumLevel.Error()
                             .WriteTo.File(@"C:\Users\timea\source\repos\librerias-aspnet\SerilogLibrary\Serilog.Blazor\Logs\log.txt",
                                             outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss} {Message:lj}{NewLine}{Exception}")
                             .CreateLogger();
