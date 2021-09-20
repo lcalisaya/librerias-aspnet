@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.ConsoleApp", "Seril
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.File", "Serilog.File\Serilog.File.csproj", "{72523C27-A9FA-4FD0-B159-E0C37A9494AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Blazor", "Serilog.Blazor\Serilog.Blazor.csproj", "{95CA051E-1D19-4CB8-B42A-DBFD0B950FB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{72523C27-A9FA-4FD0-B159-E0C37A9494AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72523C27-A9FA-4FD0-B159-E0C37A9494AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72523C27-A9FA-4FD0-B159-E0C37A9494AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CA051E-1D19-4CB8-B42A-DBFD0B950FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CA051E-1D19-4CB8-B42A-DBFD0B950FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CA051E-1D19-4CB8-B42A-DBFD0B950FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CA051E-1D19-4CB8-B42A-DBFD0B950FB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

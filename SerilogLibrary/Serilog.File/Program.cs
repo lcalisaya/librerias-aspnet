@@ -6,6 +6,7 @@ namespace Serilog.File
     {
         public static void Main(string[] args)
         {
+            //Se configura y siempre se utiliza la clase estática Log
             Log.Logger = new LoggerConfiguration()
                              .MinimumLevel.Verbose()
                              .WriteTo.File(@"C:\Users\lcalisaya\source\repos\librerias-aspnet\SerilogLibrary\Serilog.File\Logs\log.txt")
