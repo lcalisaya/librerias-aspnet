@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
 namespace Hangfire.Intro
 {
@@ -24,7 +25,7 @@ namespace Hangfire.Intro
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IBackgroundJobClient backgroundJobs)
         {
             if (env.IsDevelopment())
             {
@@ -52,6 +53,8 @@ namespace Hangfire.Intro
             });
 
             app.UseHangfireDashboard();
+
+            backgroundJobs.Enqueue(() => Console.WriteLine("Hello world from Hangfire!"));
         }
     }
 }
