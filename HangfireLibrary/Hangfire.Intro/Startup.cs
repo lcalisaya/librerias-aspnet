@@ -48,7 +48,10 @@ namespace Hangfire.Intro
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapHangfireDashboard();
             });
+
+            app.UseHangfireDashboard();
         }
     }
 }
