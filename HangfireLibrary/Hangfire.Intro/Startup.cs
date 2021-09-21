@@ -25,7 +25,10 @@ namespace Hangfire.Intro
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IBackgroundJobClient backgroundJobs)
+        public void Configure(IApplicationBuilder app, 
+                              IWebHostEnvironment env, 
+                              IBackgroundJobClient backgroundJobs,
+                              IRecurringJobManager recurringJobManager)
         {
             if (env.IsDevelopment())
             {
@@ -59,6 +62,11 @@ namespace Hangfire.Intro
 
             //Execution depending a period of time
             backgroundJobs.Schedule(() => Console.WriteLine("Hello with Delay!"), TimeSpan.FromSeconds(30.0d));
+
+            //Recurring execution task is defined
+            recurringJobManager.AddOrUpdate("This will run every minute!", 
+                                            () => Console.WriteLine("This is a recurring job"),
+                                            Cron.Minutely);
         }
     }
 }

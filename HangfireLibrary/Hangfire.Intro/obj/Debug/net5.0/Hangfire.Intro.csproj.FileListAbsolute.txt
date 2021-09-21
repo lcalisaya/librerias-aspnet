@@ -376,3 +376,4 @@ C:\Users\timea\source\repos\librerias-aspnet\HangfireLibrary\Hangfire.Intro\obj\
 C:\Users\timea\source\repos\librerias-aspnet\HangfireLibrary\Hangfire.Intro\obj\Debug\net5.0\ref\Hangfire.Intro.dll
 C:\Users\timea\source\repos\librerias-aspnet\HangfireLibrary\Hangfire.Intro\obj\Debug\net5.0\Hangfire.Intro.pdb
 C:\Users\timea\source\repos\librerias-aspnet\HangfireLibrary\Hangfire.Intro\obj\Debug\net5.0\Hangfire.Intro.genruntimeconfig.cache
+C:\Users\timea\source\repos\librerias-aspnet\HangfireLibrary\Hangfire.Intro\obj\Debug\net5.0\Hangfire.Intro.csproj.AssemblyReference.cache
