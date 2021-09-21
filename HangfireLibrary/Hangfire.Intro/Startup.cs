@@ -1,4 +1,6 @@
 using Hangfire.Intro.Extensions;
+using Hangfire.Intro.Interfaces;
+using Hangfire.Intro.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,13 +24,15 @@ namespace Hangfire.Intro
         {
             services.AddControllersWithViews();
             services.ConfigureHangfire(Configuration);
+            services.AddTransient<IWeatherForecastService, WeatherForecastService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, 
                               IWebHostEnvironment env, 
                               IBackgroundJobClient backgroundJobs,
-                              IRecurringJobManager recurringJobManager)
+                              IRecurringJobManager recurringJobManager,
+                              IServiceProvider serviceProvider)
         {
             if (env.IsDevelopment())
             {
@@ -67,6 +71,13 @@ namespace Hangfire.Intro
             recurringJobManager.AddOrUpdate("This will run every minute!", 
                                             () => Console.WriteLine("This is a recurring job"),
                                             Cron.Minutely);
+
+            //It will execute recurring task of Wheather Forecast
+            var weatherForecastService = serviceProvider.GetRequiredService<IWeatherForecastService>();   
+            recurringJobManager.AddOrUpdate("Wheather Forecast",
+                                            () => weatherForecastService.Get(),
+                                            Cron.Minutely);
+
         }
     }
 }
