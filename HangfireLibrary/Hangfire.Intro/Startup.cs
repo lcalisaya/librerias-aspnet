@@ -54,7 +54,11 @@ namespace Hangfire.Intro
 
             app.UseHangfireDashboard();
 
+            //Immediately executed
             backgroundJobs.Enqueue(() => Console.WriteLine("Hello world from Hangfire!"));
+
+            //Execution depending a period of time
+            backgroundJobs.Schedule(() => Console.WriteLine("Hello with Delay!"), TimeSpan.FromSeconds(30.0d));
         }
     }
 }
