@@ -3,19 +3,13 @@ using Hangfire.Intro.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace Hangfire.Intro.Services
 {
     public class WeatherForecastService : IWeatherForecastService
     {
-        //public WeatherForecastService(IWeatherForecastService forecastService)
-        //{
-
-        //}
-
         private static readonly string[] Summaries = new[]
-{
+        {
             "Congelante", "Refrescante", "Frío", "Mucho Frío", "Suave", "Cálido", "Caluroso", "Sofocante"
         };
 

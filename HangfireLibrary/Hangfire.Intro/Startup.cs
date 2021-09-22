@@ -25,6 +25,7 @@ namespace Hangfire.Intro
             services.AddControllersWithViews();
             services.ConfigureHangfire(Configuration);
             services.AddTransient<IWeatherForecastService, WeatherForecastService>();
+            services.AddHostedService<IntervalTaskHostedService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
