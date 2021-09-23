@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YosLgKirLTA+SohJjDmrJINJZm6H450k/hjUH/CKC41bcHgSMf72jeny8CJ3sugYq5OhIei3ZwGyxeTqF3Rcuw==",
+  "dgSpecHash": "uAXLO/fCF+SsWRffrl/7bgt8uk/3JZGKNVe3x4UsPrFpgbNpEHFaGL8T7LgIbY/U3n6y4CgPgnJrN9ZA2mJVZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\RabbitMQLibrary\\Send\\Send.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\timea\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
+    "C:\\Users\\timea\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\timea\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }
