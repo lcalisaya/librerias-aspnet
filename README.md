@@ -1,8 +1,8 @@
 ## Librerías de C# en .NET Core
 [![Nuget Package Manager](https://raw.githubusercontent.com/lcalisaya/librerias-aspnet/master/logo-nuget.png)](https://www.nuget.org/packages)
 
-### Descripción:
-Se presenta un conjunto de librerías disponibles en C# las cuales son muy útiles para el día a día de un Programador/a de .NET y que nos ayudan a hacer ✨Magia ✨
+**Descripción:**
+- Se presenta un conjunto de librerías disponibles en C# las cuales son muy útiles para el día a día de un Programador/a de .NET y que nos ayudan a hacer ✨Magia ✨
 
 **Librerías incluídas:**
 - [AutoMapper](https://automapper.org/): Genera correspondencias entre las propiedades de dos clases
