@@ -16,11 +16,22 @@ namespace Receive
                 //Creamos el canal
                 using(var channel = connection.CreateModel())
                 {
-                    channel.QueueDeclare(queue: "hello",
-                                        durable: false,
-                                        exclusive: false,
-                                        autoDelete: false,
-                                        arguments: null);
+                    //Declaramos un Exchange que se encargará de definir las queues
+                    channel.ExchangeDeclare(exchange:"miExchange", type:ExchangeType.Fanout);
+
+                    //Creamos una queue sin nombre
+                    var queueName = channel.QueueDeclare().QueueName;
+
+                    //Uno el exchange con la cola declarada
+                    channel.QueueBind(queue: queueName, exchange: "miExchange", routingKey: "");
+                    Console.WriteLine("Waiting for log messages...");
+
+                    // channel.QueueDeclare(queue: "hello",
+                    //                     durable: false,
+                    //                     exclusive: false,
+                    //                     autoDelete: false,
+                    //                     arguments: null);
+
                     //La comunicación es asincrona entonces necesitamos un evento y un callback
                     var consumer = new EventingBasicConsumer(channel);
                     consumer.Received += (model, ea) =>
@@ -30,7 +41,7 @@ namespace Receive
                         Console.WriteLine(" [x] Received {0}", message);
                     };
                     //Se informa al servidor que el mensaje ha sido recibido
-                    channel.BasicConsume(queue: "hello",
+                    channel.BasicConsume(queue: queueName,
                                         autoAck: true,
                                         consumer: consumer);
 
