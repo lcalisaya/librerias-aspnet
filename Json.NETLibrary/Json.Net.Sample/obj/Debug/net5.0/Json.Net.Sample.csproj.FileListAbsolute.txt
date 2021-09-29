@@ -1,0 +1,16 @@
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\bin\Debug\net5.0\Json.Net.Sample.exe
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\bin\Debug\net5.0\Json.Net.Sample.deps.json
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\bin\Debug\net5.0\Json.Net.Sample.runtimeconfig.json
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\bin\Debug\net5.0\Json.Net.Sample.runtimeconfig.dev.json
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\bin\Debug\net5.0\Json.Net.Sample.dll
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\bin\Debug\net5.0\ref\Json.Net.Sample.dll
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\bin\Debug\net5.0\Json.Net.Sample.pdb
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.csproj.AssemblyReference.cache
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.AssemblyInfoInputs.cache
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.AssemblyInfo.cs
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.csproj.CoreCompileInputs.cache
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.dll
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\ref\Json.Net.Sample.dll
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.pdb
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.genruntimeconfig.cache
