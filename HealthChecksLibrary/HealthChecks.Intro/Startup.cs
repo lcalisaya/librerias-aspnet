@@ -30,11 +30,11 @@ namespace HealthChecks.Intro
 
             services.AddHealthChecks()
                 .AddCheck("Service 1", () => 
-                    HealthCheckResult.Healthy("Service 1 is working as expected"))
+                    HealthCheckResult.Healthy("Service 1 is working as expected"), new[] { "database"} )
                 .AddCheck("Service 2", () =>
                     HealthCheckResult.Unhealthy("Service 2 isn't running!"))
                 .AddCheck("Service 3", () =>
-                    HealthCheckResult.Degraded("Service 3 is really slow"));
+                    HealthCheckResult.Degraded("Service 3 is really slow"), new[] { "database", "sqlserver" });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,7 +62,19 @@ namespace HealthChecks.Intro
             {
                 endpoints.MapRazorPages();
                 endpoints.MapHealthChecks("/health", new HealthCheckOptions()
-                { 
+                {
+                    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+                });
+
+                //Healthchecks without details
+                endpoints.MapHealthChecks("/healthoverview", new HealthCheckOptions()
+                {
+                    Predicate = _ => false
+                });
+                //Healthchecks according specified tags
+                endpoints.MapHealthChecks("/health/databases", new HealthCheckOptions()
+                {
+                    Predicate = serv => serv.Tags.Contains("sqlserver"),
                     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
                 });
             });
