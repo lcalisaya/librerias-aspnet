@@ -3,11 +3,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using HealthChecks.UI.Client;
 
 namespace HealthChecks.Intro
 {
@@ -25,7 +28,13 @@ namespace HealthChecks.Intro
         {
             services.AddRazorPages();
 
-            services.AddHealthChecks();
+            services.AddHealthChecks()
+                .AddCheck("Service 1", () => 
+                    HealthCheckResult.Healthy("Service 1 is working as expected"))
+                .AddCheck("Service 2", () =>
+                    HealthCheckResult.Unhealthy("Service 2 isn't running!"))
+                .AddCheck("Service 3", () =>
+                    HealthCheckResult.Degraded("Service 3 is really slow"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,7 +61,10 @@ namespace HealthChecks.Intro
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapHealthChecks("/health");
+                endpoints.MapHealthChecks("/health", new HealthCheckOptions()
+                { 
+                    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+                });
             });
         }
     }

@@ -99,7 +99,6 @@ C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.In
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
@@ -290,13 +289,20 @@ C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.In
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\refs\WindowsBase.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\HealthChecks.Intro.Views.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\HealthChecks.Intro.Views.pdb
+C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\HealthChecks.UI.Client.dll
+C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\HealthChecks.UI.Core.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -323,6 +329,7 @@ C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.In
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\obj\Debug\net5.0\HealthChecks.Intro.csproj.AssemblyReference.cache
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\obj\Debug\net5.0\HealthChecks.Intro.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\obj\Debug\net5.0\HealthChecks.Intro.AssemblyInfoInputs.cache
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\obj\Debug\net5.0\HealthChecks.Intro.AssemblyInfo.cs
@@ -352,5 +359,3 @@ C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.In
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\obj\Debug\net5.0\ref\HealthChecks.Intro.dll
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\obj\Debug\net5.0\HealthChecks.Intro.pdb
 C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\obj\Debug\net5.0\HealthChecks.Intro.genruntimeconfig.cache
-C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
-C:\Users\timea\source\repos\librerias-aspnet\HealthChecksLibrary\HealthChecks.Intro\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
