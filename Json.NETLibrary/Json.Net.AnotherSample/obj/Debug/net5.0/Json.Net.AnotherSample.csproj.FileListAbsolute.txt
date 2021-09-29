@@ -1,0 +1,16 @@
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\bin\Debug\net5.0\Json.Net.AnotherSample.exe
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\bin\Debug\net5.0\Json.Net.AnotherSample.deps.json
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\bin\Debug\net5.0\Json.Net.AnotherSample.runtimeconfig.json
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\bin\Debug\net5.0\Json.Net.AnotherSample.runtimeconfig.dev.json
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\bin\Debug\net5.0\Json.Net.AnotherSample.dll
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\bin\Debug\net5.0\ref\Json.Net.AnotherSample.dll
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\bin\Debug\net5.0\Json.Net.AnotherSample.pdb
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\obj\Debug\net5.0\Json.Net.AnotherSample.csproj.AssemblyReference.cache
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\obj\Debug\net5.0\Json.Net.AnotherSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\obj\Debug\net5.0\Json.Net.AnotherSample.AssemblyInfoInputs.cache
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\obj\Debug\net5.0\Json.Net.AnotherSample.AssemblyInfo.cs
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\obj\Debug\net5.0\Json.Net.AnotherSample.csproj.CoreCompileInputs.cache
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\obj\Debug\net5.0\Json.Net.AnotherSample.dll
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\obj\Debug\net5.0\ref\Json.Net.AnotherSample.dll
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\obj\Debug\net5.0\Json.Net.AnotherSample.pdb
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.AnotherSample\obj\Debug\net5.0\Json.Net.AnotherSample.genruntimeconfig.cache

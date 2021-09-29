@@ -119,6 +119,7 @@ namespace Json.Net.Sample
 
         public static void DeserializeJson(string contacts)
         {
+            //We convert the string with JSON format to a list of objects (JSON to C#)
             var contactsList = JsonConvert.DeserializeObject<List<Contact>>(contacts);
 
             //One example of that the deserialization worked bellow 
