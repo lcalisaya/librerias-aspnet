@@ -35,6 +35,9 @@ namespace HealthChecks.Intro
                     HealthCheckResult.Unhealthy("Service 2 isn't running!"))
                 .AddCheck("Service 3", () =>
                     HealthCheckResult.Degraded("Service 3 is really slow"), new[] { "database", "sqlserver" });
+
+            //Saving the healthchecks in memory
+            services.AddHealthChecksUI().AddInMemoryStorage();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -66,6 +69,8 @@ namespace HealthChecks.Intro
                     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
                 });
 
+                endpoints.MapHealthChecksUI();
+
                 //Healthchecks without details
                 endpoints.MapHealthChecks("/healthoverview", new HealthCheckOptions()
                 {
@@ -74,7 +79,7 @@ namespace HealthChecks.Intro
                 //Healthchecks according specified tags
                 endpoints.MapHealthChecks("/health/databases", new HealthCheckOptions()
                 {
-                    Predicate = serv => serv.Tags.Contains("sqlserver"),
+                    Predicate = serv => serv.Tags.Contains("database"),
                     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
                 });
             });
