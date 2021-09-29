@@ -11,9 +11,12 @@ namespace Json.Net.Sample
         private static string _path = @"C:\Json Sample\Contacts.json";
         public static void Main(string[] args)
         {
-            List<Contact> contacts = GetContacts();
-            SerializeListAndSaveToFile(contacts);
+            //List<Contact> contacts = GetContacts();
+            //SerializeListAndSaveToFile(contacts);
 
+            string contacts = ReadJsonFile();
+
+            DeserializeJson(contacts);
         }
 
         public static List<Contact> GetContacts()
@@ -102,6 +105,26 @@ namespace Json.Net.Sample
 
             //We save it in the indicated route
             File.WriteAllText(_path, contactsJson);
+        }
+
+        public static string ReadJsonFile()
+        {
+            string jsonFile;
+            using (var reader = new StreamReader(_path))
+            {
+                jsonFile = reader.ReadToEnd();
+            };
+            return jsonFile;
+        }
+
+        public static void DeserializeJson(string contacts)
+        {
+            var contactsList = JsonConvert.DeserializeObject<List<Contact>>(contacts);
+
+            //One example of that the deserialization worked bellow 
+            Console.WriteLine($"{contactsList[1].Name} lives in {contactsList[1].Address.Street} " +
+                                $"{contactsList[1].Address.Number}, {contactsList[1].Address.City.Name} - " +
+                                $"{contactsList[1].Address.City.Country.Name}");
         }
     }
 }
