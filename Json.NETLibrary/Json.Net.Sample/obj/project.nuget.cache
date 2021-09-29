@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IQmh1mab3PDSUItg9VCE91l71BE11bYwCBeTQqHvF2zJaT2QAagkoDBAx98CQoIQlCECcy0R+Y0hGNnedawUIQ==",
+  "dgSpecHash": "+qoZl5LG/RnbuwgGf1NpA69b/MbkB1+vm4YqQoFT/crhNnKftB/fv9hknVkU1H0t9p2tyASaaH+OiybnsFDDeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\timea\\source\\repos\\librerias-aspnet\\Json.NETLibrary\\Json.Net.Sample\\Json.Net.Sample.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\timea\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

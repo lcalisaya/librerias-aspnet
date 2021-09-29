@@ -14,3 +14,5 @@ C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj
 C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\ref\Json.Net.Sample.dll
 C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.pdb
 C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.genruntimeconfig.cache
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\timea\source\repos\librerias-aspnet\Json.NETLibrary\Json.Net.Sample\obj\Debug\net5.0\Json.Net.Sample.csproj.CopyComplete

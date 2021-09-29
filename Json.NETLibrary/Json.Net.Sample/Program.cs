@@ -1,6 +1,8 @@
 ﻿using Json.Net.Sample.Model;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Json.Net.Sample
 {
@@ -9,12 +11,14 @@ namespace Json.Net.Sample
         private static string _path = @"C:\Json Sample\Contacts.json";
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List<Contact> contacts = GetContacts();
+            SerializeListAndSaveToFile(contacts);
+
         }
 
         public static List<Contact> GetContacts()
         {
-            List<Contact> contactos = new List<Contact> {
+            List<Contact> contacts = new List<Contact> {
 
                 new Contact
                 {
@@ -88,7 +92,16 @@ namespace Json.Net.Sample
 
             };
 
-            return contactos;
+            return contacts;
+        }
+        
+        public static void SerializeListAndSaveToFile(List<Contact> contacts)
+        {
+            //We convert the list of objects to a string with JSON format (C# to JSON)
+            string contactsJson = JsonConvert.SerializeObject(contacts.ToArray(), Formatting.Indented);
+
+            //We save it in the indicated route
+            File.WriteAllText(_path, contactsJson);
         }
     }
 }
