@@ -1,16 +1,12 @@
+using HealthChecks.Intro.PersonalizedHealthChecks;
+using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using HealthChecks.UI.Client;
 
 namespace HealthChecks.Intro
 {
@@ -28,13 +24,16 @@ namespace HealthChecks.Intro
         {
             services.AddRazorPages();
 
+            services.AddSingleton<LatencyHealthCheck>();
+
             services.AddHealthChecks()
                 .AddCheck("Service 1", () => 
                     HealthCheckResult.Healthy("Service 1 is working as expected"), new[] { "database"} )
                 .AddCheck("Service 2", () =>
                     HealthCheckResult.Unhealthy("Service 2 isn't running!"))
                 .AddCheck("Service 3", () =>
-                    HealthCheckResult.Degraded("Service 3 is really slow"), new[] { "database", "sqlserver" });
+                    HealthCheckResult.Degraded("Service 3 is really slow"), new[] { "database", "sqlserver" })
+                .AddCheck<LatencyHealthCheck>("Latency health check");
 
             //Saving the healthchecks in memory
             services.AddHealthChecksUI().AddInMemoryStorage();
