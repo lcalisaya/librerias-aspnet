@@ -25,6 +25,7 @@ namespace MailKit.Intro
             // SmtpSettings object fills in with data from SmtpSettings section inside appsettings.json
             services.Configure<SmtpSettings>(Configuration.GetSection("SmtpSettings"));
 
+            // When an IEmailSenderService interface is required, send an EmailSenderService object
             services.AddSingleton<IEmailSenderService, EmailSenderService>();
         }
 

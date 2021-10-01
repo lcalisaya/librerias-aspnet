@@ -404,3 +404,4 @@ C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\De
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\ref\MailKit.Intro.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\MailKit.Intro.pdb
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\MailKit.Intro.genruntimeconfig.cache
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\MailKit.Intro.csproj.AssemblyReference.cache
