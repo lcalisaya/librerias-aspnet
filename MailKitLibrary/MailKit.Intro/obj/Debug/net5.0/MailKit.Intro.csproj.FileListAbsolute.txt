@@ -293,6 +293,7 @@ C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\De
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\MailKit.Intro.Views.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\MailKit.Intro.Views.pdb
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\Humanizer.dll
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\MailKit.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -311,7 +312,9 @@ C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\De
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\MimeKit.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\System.Composition.AttributedModel.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\System.Composition.Convention.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\System.Composition.Hosting.dll
@@ -371,7 +374,6 @@ C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\De
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\MailKit.Intro.csproj.AssemblyReference.cache
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\MailKit.Intro.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\MailKit.Intro.AssemblyInfoInputs.cache
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\MailKit.Intro.AssemblyInfo.cs
@@ -388,6 +390,7 @@ C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\De
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\MailKit.Intro.RazorCoreGenerate.cache
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\Razor\Views\MailTo\Create.cshtml.g.cs
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -401,4 +404,3 @@ C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\De
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\ref\MailKit.Intro.dll
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\MailKit.Intro.pdb
 C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\MailKit.Intro.genruntimeconfig.cache
-C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\MailKit.Intro\obj\Debug\net5.0\Razor\Views\MailTo\Create.cshtml.g.cs
