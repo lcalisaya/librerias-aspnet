@@ -14,6 +14,7 @@
 - [HangFire](https://docs.hangfire.io/en/latest/): Gestiona desde un tablero las tareas de fondo que se pueden ejecutar una vez o de manera recurrente
 - [RabbitMQ](https://www.rabbitmq.com/getstarted.html): Message broker que manda mensajes entre aplicaciones
 - [HealthChecks](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks): Desde un endpoint se verifican los estados de salud de la aplicación
+- [MailKit](https://github.com/jstedfast/MailKit): Se envían mails al destinatario a través del servidor SMTP de Gmail. También hay unas pruebas con la librería embebida System.Net.Mail
 
 **Créditos:**
 
