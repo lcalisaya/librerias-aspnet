@@ -1,0 +1,15 @@
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\bin\Debug\net5.0\SendingEmail.exe
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\bin\Debug\net5.0\SendingEmail.deps.json
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\bin\Debug\net5.0\SendingEmail.runtimeconfig.json
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\bin\Debug\net5.0\SendingEmail.runtimeconfig.dev.json
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\bin\Debug\net5.0\SendingEmail.dll
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\bin\Debug\net5.0\ref\SendingEmail.dll
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\bin\Debug\net5.0\SendingEmail.pdb
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\obj\Debug\net5.0\SendingEmail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\obj\Debug\net5.0\SendingEmail.AssemblyInfoInputs.cache
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\obj\Debug\net5.0\SendingEmail.AssemblyInfo.cs
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\obj\Debug\net5.0\SendingEmail.csproj.CoreCompileInputs.cache
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\obj\Debug\net5.0\SendingEmail.dll
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\obj\Debug\net5.0\ref\SendingEmail.dll
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\obj\Debug\net5.0\SendingEmail.pdb
+C:\Users\timea\source\repos\librerias-aspnet\MailKitLibrary\EnvioDeEmail\obj\Debug\net5.0\SendingEmail.genruntimeconfig.cache
